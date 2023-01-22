@@ -1,0 +1,34 @@
+{
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MariaDB",
+			"name": "MariaDB",
+			"database": "test",
+			"username": "root",
+			"password": ""
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "Postgres",
+			"database": "postgres",
+			"username": "athirson",
+			"password": ""
+		},
+		{
+			"previewLimit": 50,
+			"driver": "SQLite",
+			"name": "car_pricing",
+			"database": "${workspaceFolder:car-pricing-api}/car_pricing.sqlite"
+		}
+	],
+	"sqltools.useNodeRuntime": true,
+}

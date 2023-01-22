@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "athirson",
+  "password": "",
+  "database": "task-management",
+  "entities": ["src/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "autoLoadEntities": true
+}
